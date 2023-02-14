@@ -1,3 +1,6 @@
+<a href="index.php">Index</a>
+<a href="basics.php">Basic</a>
+
 <h1>Welcome</h1>
 <b>Hyer text preprocessor</b>
 <b>Personal Home Page</b>

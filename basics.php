@@ -1,3 +1,6 @@
+<a href="index.php">Index</a>
+<a href="basics.php">Basic</a>
+
 <h1>Basic</h1>
 
 <?php
