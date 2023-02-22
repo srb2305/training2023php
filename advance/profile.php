@@ -1,5 +1,4 @@
-<?php  include('menubar.php');
- ?>
+<?php  include('menubar.php'); ?>
 
 <h1>Profile</h1>
 <h3>Welcome Raj, to our portal</h3>

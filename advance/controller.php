@@ -2,7 +2,7 @@
 	error_reporting(0);
 	session_start();
 
-	if(isset($_POST['login'])){
+	if(isset($_POST['loginbtn'])){
 		$email = $_POST['emailid'];
 		$password = $_POST['password'];
 
