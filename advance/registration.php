@@ -9,7 +9,14 @@ include('menubar.php');
 
 
 <h1>Registration</h1>
-<form action="controller.php">
+<?php
+error_reporting(0);
+if($_GET['msg']){
+	echo $_GET['msg'];
+}
+?>
+
+<form action="controller.php" method="POST">
 	Name : <input type="text" name="name"><br>
 	Email: <input type="email" name="email"><br>
 	Contact: <input type="number" name="contact"><br>
