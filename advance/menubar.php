@@ -1,6 +1,7 @@
 <a href="contact.php">Contact</a>
 <a href="contact.php">About Us</a>
 <a href="contact.php">Services</a>
+<a href="user_list.php">User List</a>
 
 <?php 
 	session_start();

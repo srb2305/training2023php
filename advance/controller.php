@@ -1,5 +1,5 @@
 <?php
-	error_reporting(0);
+	//error_reporting(0);
 	session_start();
 	include('db.php');
 
@@ -29,7 +29,21 @@
 			$msg = "Something went wrong";
 		}
 		header('location:registration.php?msg='.$msg);
-
 	}
+
+
+	if(isset($_GET['user_delete_id'])){
+		$id = $_GET['user_delete_id'];
+		$qry = "delete from `users` where `id`=$id";
+		$delete = mysqli_query($con, $qry);
+		if($delete){
+			$msg =  "Deleted Successfully";
+		}else{
+			$msg = "Something went wrong";
+		}
+		header('location:user_list.php?msg='.$msg);
+	}
+
+
 
 ?>
