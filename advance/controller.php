@@ -44,6 +44,21 @@
 		header('location:user_list.php?msg='.$msg);
 	}
 
+	if(isset($_POST['update_user'])){
+		$id = $_POST['id'];
+		$name = $_POST['name'];
+		$email = $_POST['email'];
+		$contact = $_POST['contact'];
+		$education = $_POST['education'];
 
+		$qry = "update `users` set `name`='$name',`email`='$email',`contact`='$contact',`education`='$education' where `id`='$id'";
+		$update = mysqli_query($con, $qry);
+		if($update){
+			$msg =  "Updated Successfully";
+		}else{
+			$msg = "Something went wrong";
+		}
+		header('location:user_list.php?msg='.$msg);
+	}
 
 ?>
