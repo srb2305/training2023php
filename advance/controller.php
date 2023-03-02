@@ -5,11 +5,26 @@
 
 	if(isset($_POST['loginbtn'])){
 		$email = $_POST['emailid'];
-		$password = $_POST['password'];
+		$password = md5($_POST['password']);
 
-		$_SESSION['email'] = $email;
+		$qry = "SELECT * FROM `users` WHERE `email`='$email' and `password` = '$password'";
+		$result = mysqli_query($con,$qry);
+		;
+		if($result->num_rows > 0){
+			$data =	$result->fetch_assoc(); 
+			$type = $data['type'];
+			$_SESSION['email'] = $email;
+			
+			if($type == 2){
+				header('location:profile.php');
+			}else{
+				header('location:admin_profile.php');
+			}
+		}else{
+			$msg = "Invalid credentials";
+			header('location:login.php?msg='.$msg);
+		}
 
-		header('location:profile.php');
 
 	}
 
