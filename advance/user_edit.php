@@ -18,7 +18,7 @@ $data = $record->fetch_assoc();
 <form action="controller.php" method="POST">
 	<input type="hidden" name="id" value="<?php echo $data['id']; ?>"><br>
 	Name : <input type="text" name="name" value="<?php echo $data['name']; ?>"><br>
-	Email: <input type="email" name="email" value="<?php echo $data['email']; ?>"><br>
+	Email: <input type="email" name="email" value="<?php echo $data['email']; ?>" readonly ><br>
 	Contact: <input type="number" name="contact" value="<?php echo $data['contact']; ?>"><br>
 	Education: 
 	<select name="education">

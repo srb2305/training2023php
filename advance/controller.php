@@ -12,6 +12,8 @@
 		;
 		if($result->num_rows > 0){
 			$data =	$result->fetch_assoc(); 
+		 	//$data = mysqli_fetch_assoc($result);
+
 			$type = $data['type'];
 			$_SESSION['email'] = $email;
 			
@@ -34,10 +36,52 @@
 		$email = $_POST['email'];
 		$contact = $_POST['contact'];
 		$education = $_POST['education'];
-		$password = md5($_POST['password']);
+		$password = !empty($_POST['password']) ? md5($_POST['password']) : '';
+
+		$errorArry = [];
+
+		if(empty($name)){
+			$errorArry['name'] = 'Name is required';
+		}
+		if(empty($email)){
+			$errorArry['email'] = 'Email is required';
+		}
+		if(empty($contact)){
+			$errorArry['contact'] = 'contact is required';
+		}
+		if(empty($password)){
+			$errorArry['password'] = 'password is required';
+		}
+
+		unset($_SESSION['error_ary']);
+		if(empty($name) || empty($email) || empty($contact) || empty($password) ){
+			$_SESSION['error_ary'] = $errorArry;
+			$msg = "Please fill required fields";
+			header('location:registration.php?error_msg='.$msg);
+			die();
+		}
+
+		$contactLeng = strlen($contact);
+		if( ($contactLeng < 10) ||  ($contactLeng > 15) ){
+			$msg = "Contact number should be between 10-15 digits";
+			header('location:registration.php?error_msg='.$msg);
+			die();
+		}
+
+		$chkQry = "select * from `users` where `email`='$email'";
+		$chkResult = mysqli_query($con, $chkQry);
+		$count = $chkResult->num_rows;
+		if($count > 0){
+			$msg =  "Email already registerd, pls login or signin with diffrent mail";
+			header('location:registration.php?error_msg='.$msg);
+			die();
+		}
+
 
 		$qry = "insert into `users` (`name`,`email`,`contact`,`education`,`password`) values ('$name','$email','$contact','$education','$password')";
+
 		$insert = mysqli_query($con, $qry);
+
 		if($insert){
 			$msg =  "Inserted Successfully";
 		}else{

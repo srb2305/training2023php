@@ -28,7 +28,7 @@ $totalCount = $result->num_rows;
 				<td><?php  echo $value['email']; ?></td>
 				<td><?php  echo $value['contact']; ?></td>
 				<td>
-					<a href="controller.php?user_delete_id=<?php  echo $value['id']; ?>">Delete</a>
+					<a onClick="if(confirm('Are u sure?????')){return true}else{return false}" href="controller.php?user_delete_id=<?php  echo $value['id']; ?>">Delete</a>
 
 					<a href="user_edit.php?id=<?php  echo $value['id']; ?>">Edit</a>
 				</td>
