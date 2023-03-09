@@ -120,4 +120,26 @@
 		header('location:user_list.php?msg='.$msg);
 	}
 
+
+	if(isset($_POST['file_upload'])){
+		$title =	$_POST['title'];
+		//$file =	$_FILES['file'];
+		$tmp_name =	$_FILES['file']['tmp_name'];
+		$name =	$_FILES['file']['name'];
+		$newName = time().$name;
+		$destination = '../images/'.$newName;
+		move_uploaded_file($tmp_name, $destination);
+
+		$qry = "insert into `file_upload` (`title`,`file_name`) values ('$title','$newName')";
+
+		$insert = mysqli_query($con, $qry);
+
+		if($insert){
+			$msg =  "Inserted Successfully";
+		}else{
+			$msg = "Something went wrong";
+		}
+		header('location:file_upload.php?msg='.$msg);
+
+	}
 ?>

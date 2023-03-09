@@ -1,0 +1,507 @@
+[2023-03-06T07:56:58.625370+00:00] WorldPay.INFO: ########## Submitting payment options request ########## [] []
+[2023-03-06T07:56:58.691283+00:00] WorldPay.INFO: Setting destination URL: https://secure-test.worldpay.com/jsp/merchant/xml/paymentService.jsp [] []
+[2023-03-06T07:56:58.691341+00:00] WorldPay.INFO: Initialising request [] []
+[2023-03-06T07:56:58.691462+00:00] WorldPay.INFO: Sending XML as: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paymentService PUBLIC "-//WorldPay/DTD WorldPay PaymentService v1//EN" "http://dtd.worldpay.com/paymentService_v1.dtd">
+<paymentService merchantCode="SAPIENTNITROECOMMERCEV1" version="1.4"><inquiry><paymentOptionsInquiry countryCode="US"/></inquiry></paymentService>
+ [] []
+[2023-03-06T07:56:58.988186+00:00] WorldPay.INFO: Request successfully sent [] []
+[2023-03-06T07:56:58.988286+00:00] WorldPay.INFO: HTTP/2 200 
+content-security-policy-report-only: default-src https: data: 'unsafe-eval' 'unsafe-inline'; object-src 'none'; report-uri https://secure.worldpay.com/public/CspReport
+content-length: 1090
+p3p: CP="NON"
+content-type: text/plain
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-cnection: close
+expires: Mon, 06 Mar 2023 07:56:58 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 06 Mar 2023 07:56:58 GMT
+set-cookie: machine=0a844015;Secure;path=/
+strict-transport-security: max-age=31536000 ; includeSubDomains
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paymentService PUBLIC "-//WorldPay//DTD WorldPay PaymentService v1//EN"
+                                "http://dtd.worldpay.com/paymentService_v1.dtd">
+<paymentService version="1.4" merchantCode="SAPIENTNITROECOMMERCEV1"><reply>
+<paymentOption>PAYPAL-EXPRESS</paymentOption>
+<paymentOption>DINERS-SSL</paymentOption>
+<paymentOption>ECMC-SSL</paymentOption>
+<paymentOption>DINERS-SSL</paymentOption>
+<paymentOption>VISA-SSL</paymentOption>
+<paymentOption>AMEX-SSL</paymentOption>
+<paymentOption>DISCOVER-SSL</paymentOption>
+<paymentOption>VISA-SET</paymentOption>
+<paymentOption>MAESTRO-SSL</paymentOption>
+<paymentOption>JCB-SSL</paymentOption>
+<paymentOption>IKEA-SSL</paymentOption>
+<paymentOption>AIRPLUS-SSL</paymentOption>
+<paymentOption>ALIPAY-SSL</paymentOption>
+<paymentOption>ALIPAYMOBILE-SSL</paymentOption>
+<paymentOption>CHINAUNIONPAY-SSL</paymentOption>
+<paymentOption>ENVOY_TRANSFER_USD-BANK</paymentOption>
+<paymentOption>ACH_DIRECT_DEBIT-SSL</paymentOption>
+<paymentOption>UATP-SSL</paymentOption>
+</reply></paymentService>
+ [] []
+[2023-03-06T07:56:58.988418+00:00] WorldPay.INFO: Cookie Get: machine=0a844015;Secure;path=/ [] []
+[2023-03-06T07:56:59.086089+00:00] WorldPay.INFO: ########## Submitting payment options request ########## [] []
+[2023-03-06T07:56:59.086518+00:00] WorldPay.INFO: Setting destination URL: https://secure-test.worldpay.com/jsp/merchant/xml/paymentService.jsp [] []
+[2023-03-06T07:56:59.086558+00:00] WorldPay.INFO: Initialising request [] []
+[2023-03-06T07:56:59.086665+00:00] WorldPay.INFO: Sending XML as: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paymentService PUBLIC "-//WorldPay/DTD WorldPay PaymentService v1//EN" "http://dtd.worldpay.com/paymentService_v1.dtd">
+<paymentService merchantCode="SAPIENTNITROECOMMERCEV1" version="1.4"><inquiry><paymentOptionsInquiry countryCode="US"/></inquiry></paymentService>
+ [] []
+[2023-03-06T07:56:59.386662+00:00] WorldPay.INFO: Request successfully sent [] []
+[2023-03-06T07:56:59.386737+00:00] WorldPay.INFO: HTTP/2 200 
+content-security-policy-report-only: default-src https: data: 'unsafe-eval' 'unsafe-inline'; object-src 'none'; report-uri https://secure.worldpay.com/public/CspReport
+content-length: 1090
+p3p: CP="NON"
+content-type: text/plain
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-cnection: close
+expires: Mon, 06 Mar 2023 07:56:59 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 06 Mar 2023 07:56:59 GMT
+set-cookie: machine=0a844015;Secure;path=/
+strict-transport-security: max-age=31536000 ; includeSubDomains
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paymentService PUBLIC "-//WorldPay//DTD WorldPay PaymentService v1//EN"
+                                "http://dtd.worldpay.com/paymentService_v1.dtd">
+<paymentService version="1.4" merchantCode="SAPIENTNITROECOMMERCEV1"><reply>
+<paymentOption>PAYPAL-EXPRESS</paymentOption>
+<paymentOption>DINERS-SSL</paymentOption>
+<paymentOption>ECMC-SSL</paymentOption>
+<paymentOption>DINERS-SSL</paymentOption>
+<paymentOption>VISA-SSL</paymentOption>
+<paymentOption>AMEX-SSL</paymentOption>
+<paymentOption>DISCOVER-SSL</paymentOption>
+<paymentOption>VISA-SET</paymentOption>
+<paymentOption>MAESTRO-SSL</paymentOption>
+<paymentOption>JCB-SSL</paymentOption>
+<paymentOption>IKEA-SSL</paymentOption>
+<paymentOption>AIRPLUS-SSL</paymentOption>
+<paymentOption>ALIPAY-SSL</paymentOption>
+<paymentOption>ALIPAYMOBILE-SSL</paymentOption>
+<paymentOption>CHINAUNIONPAY-SSL</paymentOption>
+<paymentOption>ENVOY_TRANSFER_USD-BANK</paymentOption>
+<paymentOption>ACH_DIRECT_DEBIT-SSL</paymentOption>
+<paymentOption>UATP-SSL</paymentOption>
+</reply></paymentService>
+ [] []
+[2023-03-06T07:56:59.386900+00:00] WorldPay.INFO: Cookie Get: machine=0a844015;Secure;path=/ [] []
+[2023-03-06T07:58:02.362684+00:00] WorldPay.INFO: WorldPay Payment CreditCards Authorise Method Executed: [] []
+[2023-03-06T07:58:02.363081+00:00] WorldPay.INFO: ########## Submitting payment options request ########## [] []
+[2023-03-06T07:58:02.363424+00:00] WorldPay.INFO: Setting destination URL: https://secure-test.worldpay.com/jsp/merchant/xml/paymentService.jsp [] []
+[2023-03-06T07:58:02.363465+00:00] WorldPay.INFO: Initialising request [] []
+[2023-03-06T07:58:02.363556+00:00] WorldPay.INFO: Sending XML as: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paymentService PUBLIC "-//WorldPay/DTD WorldPay PaymentService v1//EN" "http://dtd.worldpay.com/paymentService_v1.dtd">
+<paymentService merchantCode="SAPIENTNITROECOMMERCEV1" version="1.4"><inquiry><paymentOptionsInquiry countryCode="US"/></inquiry></paymentService>
+ [] []
+[2023-03-06T07:58:02.795809+00:00] WorldPay.INFO: Request successfully sent [] []
+[2023-03-06T07:58:02.795902+00:00] WorldPay.INFO: HTTP/2 200 
+content-security-policy-report-only: default-src https: data: 'unsafe-eval' 'unsafe-inline'; object-src 'none'; report-uri https://secure.worldpay.com/public/CspReport
+content-length: 1090
+p3p: CP="NON"
+content-type: text/plain
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-cnection: close
+expires: Mon, 06 Mar 2023 07:58:02 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 06 Mar 2023 07:58:02 GMT
+set-cookie: machine=0a844015;Secure;path=/
+strict-transport-security: max-age=31536000 ; includeSubDomains
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paymentService PUBLIC "-//WorldPay//DTD WorldPay PaymentService v1//EN"
+                                "http://dtd.worldpay.com/paymentService_v1.dtd">
+<paymentService version="1.4" merchantCode="SAPIENTNITROECOMMERCEV1"><reply>
+<paymentOption>PAYPAL-EXPRESS</paymentOption>
+<paymentOption>DINERS-SSL</paymentOption>
+<paymentOption>ECMC-SSL</paymentOption>
+<paymentOption>DINERS-SSL</paymentOption>
+<paymentOption>VISA-SSL</paymentOption>
+<paymentOption>AMEX-SSL</paymentOption>
+<paymentOption>DISCOVER-SSL</paymentOption>
+<paymentOption>VISA-SET</paymentOption>
+<paymentOption>MAESTRO-SSL</paymentOption>
+<paymentOption>JCB-SSL</paymentOption>
+<paymentOption>IKEA-SSL</paymentOption>
+<paymentOption>AIRPLUS-SSL</paymentOption>
+<paymentOption>ALIPAY-SSL</paymentOption>
+<paymentOption>ALIPAYMOBILE-SSL</paymentOption>
+<paymentOption>CHINAUNIONPAY-SSL</paymentOption>
+<paymentOption>ENVOY_TRANSFER_USD-BANK</paymentOption>
+<paymentOption>ACH_DIRECT_DEBIT-SSL</paymentOption>
+<paymentOption>UATP-SSL</paymentOption>
+</reply></paymentService>
+ [] []
+[2023-03-06T07:58:02.795953+00:00] WorldPay.INFO: Cookie Get: machine=0a844015;Secure;path=/ [] []
+[2023-03-06T07:58:02.886401+00:00] WorldPay.INFO: ########## Submitting direct order request. OrderCode: 000002595-1678089482 ########## [] []
+[2023-03-06T07:58:02.888204+00:00] WorldPay.INFO: Setting destination URL: https://secure-test.worldpay.com/jsp/merchant/xml/paymentService.jsp [] []
+[2023-03-06T07:58:02.888262+00:00] WorldPay.INFO: Initialising request [] []
+[2023-03-06T07:58:02.888459+00:00] WorldPay.INFO: Sending XML as: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paymentService PUBLIC "-//WorldPay/DTD WorldPay PaymentService v1//EN" "http://dtd.worldpay.com/paymentService_v1.dtd">
+<paymentService merchantCode="SAPIENTNITROECOMMERCEV1" version="1.4"><submit><order orderCode="000002595-1678089482" captureDelay="default"><description><![CDATA[WorldPay Order]]></description><amount currencyCode="USD" exponent="2" value="2300"/><paymentDetails><CSE-DATA><encryptedData>eyJhbGciOiJSU0ExXzUiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSIsImNvbS53b3JsZHBheS5hcGlWZXJzaW9uIjoiMS4wIiwiY29tLndvcmxkcGF5LmxpYlZlcnNpb24iOiIxLjAuMiIsImNvbS53b3JsZHBheS5jaGFubmVsIjoiamF2YXNjcmlwdCJ9.gE-5b0GVvp48AsiFt6u67ubDI-9Vz9-mQcDFUaj5PuG3LL7rVdH-8NOO3LEGZTvEz_BnDoph9KNSrNm7CM9YfhdBfIxeJwVWJP0NZFjEu8r5Dw8C025HK8Ls7Cr5YhgGMhZQ6yFn7WsxnrSm4YRCTuKkZMNfrYum9qLJhSkvmpgUKrndfWwBFq_kwprnDiScFDAdMttgoDenYNTpUkTUc36X328misBjSZKF_h6eVLWsVzJa8t0too4LaKBuBXSwwBPvS_bPcg1Bpis7DQEyRivW2LIIJx_G_uDrIPNesFbb6-VnFfFBK2VHTYRUI7DMVKVdAYIrAB9xVOl2nn9H8w.jJfG6SUQw-dQrTPT.yRjFphUvnf12tkhtGwrt4locZYgYXsIgMXxrwZSiebUrpgaLjCAMecAyS5XFX5qIi8gCadtcJGeDn2I79q-GC3IxvSjWZZYAxG9mZqZUuChkv0ZTRUsWp-paXUsDPap4_g65SnkXpcxV7ZHb-CkxrFhVRyc.GlDRBfgnyUfiq-TH85Mn9Q</encryptedData><cardAddress><address><firstName><![CDATA[Veronica]]></firstName><lastName><![CDATA[Costello]]></lastName><street><![CDATA[6146 Honey Bluff Parkway]]></street><postalCode><![CDATA[49628-7978]]></postalCode><city><![CDATA[Calder]]></city><countryCode><![CDATA[US]]></countryCode></address></cardAddress></CSE-DATA><storedCredentials usage="FIRST"/><session id="gqr7le9q74190bu671b6o079oh" shopperIPAddress="103.185.243.166"/></paymentDetails><shopper><shopperEmailAddress>roni_cost@example.com</shopperEmailAddress><authenticatedShopperID>1</authenticatedShopperID><browser><acceptHeader><![CDATA[*/*]]></acceptHeader><userAgentHeader><![CDATA[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36]]></userAgentHeader></browser></shopper><shippingAddress><address><firstName><![CDATA[Veronica]]></firstName><lastName><![CDATA[Costello]]></lastName><street><![CDATA[6146 Honey Bluff Parkway]]></street><postalCode><![CDATA[49628-7978]]></postalCode><city><![CDATA[Calder]]></city><countryCode><![CDATA[US]]></countryCode></address></shippingAddress><billingAddress><address><firstName><![CDATA[Veronica]]></firstName><lastName><![CDATA[Costello]]></lastName><street><![CDATA[6146 Honey Bluff Parkway]]></street><postalCode><![CDATA[49628-7978]]></postalCode><city><![CDATA[Calder]]></city><countryCode><![CDATA[US]]></countryCode></address></billingAddress><dynamic3DS overrideAdvice="do3DS"/><createToken tokenScope="shopper"><tokenReason>To Save Card 000002595-1678089482</tokenReason></createToken><riskData><authenticationRiskData authenticationMethod="localAccount"><authenticationTimestamp><date second="02" minute="58" hour="07" dayOfMonth="06" month="03" year="2023"/></authenticationTimestamp></authenticationRiskData><shopperAccountRiskData transactionsAttemptedLastDay="0" transactionsAttemptedLastYear="330" purchasesCompletedLastSixMonths="100" addCardAttemptsLastDay="5" previousSuspiciousActivity="false" shippingNameMatchesAccountName="true" shopperAccountAgeIndicator="moreThanSixtyDays" shopperAccountChangeIndicator="moreThanSixtyDays" shopperAccountPasswordChangeIndicator="moreThanSixtyDays" shopperAccountShippingAddressUsageIndicator="moreThanSixtyDays" shopperAccountPaymentAccountIndicator="moreThanSixtyDays"><shopperAccountCreationDate><date dayOfMonth="09" month="05" year="2022"/></shopperAccountCreationDate><shopperAccountModificationDate><date dayOfMonth="09" month="05" year="2022"/></shopperAccountModificationDate><shopperAccountPasswordChangeDate><date dayOfMonth="09" month="05" year="2022"/></shopperAccountPasswordChangeDate><shopperAccountShippingAddressFirstUseDate><date dayOfMonth="09" month="05" year="2022"/></shopperAccountShippingAddressFirstUseDate><shopperAccountPaymentAccountFirstUseDate><date dayOfMonth="09" month="05" year="2022"/></shopperAccountPaymentAccountFirstUseDate></shopperAccountRiskData><transactionRiskData shippingMethod="other" deliveryEmailAddress="roni_cost@example.com" reorderingPreviousPurchases="true" preOrderPurchase="false" giftCardCount="0"/></riskData><additional3DSData dfReferenceId="b5164f3a-198b-4a51-a466-76275c6cd449" challengeWindowSize="600x400" challengePreference="challengeMandated"/><exemption placement="AUTHORISATION" type="OP"/><FraudSightData><shopperFields><shopperName>Veronica</shopperName><shopperId>1</shopperId><birthDate><date dayOfMonth="15" month="12" year="1973"/></birthDate><shopperAddress><address><firstName><![CDATA[Veronica]]></firstName><lastName><![CDATA[Costello]]></lastName><street><![CDATA[6146 Honey Bluff Parkway]]></street><postalCode><![CDATA[49628-7978]]></postalCode><city><![CDATA[Calder]]></city><countryCode><![CDATA[US]]></countryCode></address></shopperAddress></shopperFields></FraudSightData></order></submit></paymentService>
+ [] []
+[2023-03-06T07:58:02.888574+00:00] WorldPay.INFO: Sending additional headers as: {"MERCHANT_ID":"SAPIENTNITROECOMMERCEV1","API_USERNAME":"MHAF6P5ABWKKIMAKLYXM","MAGENTO_EDITION":"Enterprise","MAGENTO_VERSION":"2.4.5-p1","PHP_VERSION":"8.1.5","CURRENT_WORLDPAY_PLUGIN_VERSION":"2.4.3-p20622","WORLDPAY_PLUGIN_VERSION_USED_TILL_DATE":"2.4.3-p20622","UPGRADE_DATES":"27-09-2022"} [] []
+[2023-03-06T07:58:03.680461+00:00] WorldPay.INFO: Request successfully sent [] []
+[2023-03-06T07:58:03.680554+00:00] WorldPay.INFO: HTTP/2 200 
+content-security-policy-report-only: default-src https: data: 'unsafe-eval' 'unsafe-inline'; object-src 'none'; report-uri https://secure.worldpay.com/public/CspReport
+content-length: 2785
+p3p: CP="NON"
+content-type: text/plain
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-cnection: close
+expires: Mon, 06 Mar 2023 07:58:03 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 06 Mar 2023 07:58:03 GMT
+set-cookie: machine=0a844015;Secure;path=/
+strict-transport-security: max-age=31536000 ; includeSubDomains
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paymentService PUBLIC "-//WorldPay//DTD WorldPay PaymentService v1//EN"
+                                "http://dtd.worldpay.com/paymentService_v1.dtd">
+<paymentService version="1.4" merchantCode="SAPIENTNITROECOMMERCEV1"><reply><orderStatus orderCode="000002595-1678089482"><payment><paymentMethod>VISA_CREDIT-SSL</paymentMethod><paymentMethodDetail><card number="4444********1111" type="creditcard"><expiryDate><date month="02" year="2025"/></expiryDate></card></paymentMethodDetail><amount value="2300" currencyCode="USD" exponent="2" debitCreditIndicator="credit"/><lastEvent>AUTHORISED</lastEvent><AuthorisationId id="503005"/><CVCResultCode description="NOT CHECKED BY ACQUIRER"/><AVSResultCode description="NOT CHECKED BY ACQUIRER"/><AAVAddressResultCode description="UNKNOWN"/><AAVPostcodeResultCode description="UNKNOWN"/><AAVCardholderNameResultCode description="UNKNOWN"/><AAVTelephoneResultCode description="UNKNOWN"/><AAVEmailResultCode description="UNKNOWN"/><cardHolderName><![CDATA[saurbah sahu]]></cardHolderName><issuerCountryCode>N/A</issuerCountryCode><balance accountType="IN_PROCESS_AUTHORISED"><amount value="2300" currencyCode="USD" exponent="2" debitCreditIndicator="credit"/></balance><riskScore Provider="FraudSight" finalScore="0" id="998acac1-8fec-41fb-b607-c0f7fe6a9274" message="low-risk"/><FraudSight score="0" id="998acac1-8fec-41fb-b607-c0f7fe6a9274" message="low-risk"><reasonCodes><reasonCode>Suspected Fraud</reasonCode></reasonCodes></FraudSight><instalments>1</instalments><schemeResponse><transactionIdentifier>000000000000020005060720116005060</transactionIdentifier></schemeResponse></payment><token><authenticatedShopperID>1</authenticatedShopperID><tokenReason>To Save Card 000002595-1678089482</tokenReason><tokenDetails tokenEvent="CONFLICT"><paymentTokenID>9932008911229181938</paymentTokenID><paymentTokenExpiry><date dayOfMonth="10" month="03" year="2023" hour="12" minute="46" second="17"/></paymentTokenExpiry><tokenReason>To Save Card 000000140-1677492193</tokenReason></tokenDetails><paymentInstrument><cardDetails><expiryDate><date month="12" year="2023"/></expiryDate><cardHolderName><![CDATA[saurabh sahu]]></cardHolderName><cardAddress><address><address1>indore</address1><postalCode>787878</postalCode><city>indore</city><countryCode>US</countryCode></address></cardAddress><derived><cardBrand>VISA</cardBrand><cardSubBrand>VISA_CREDIT</cardSubBrand><issuerCountryCode>N/A</issuerCountryCode><obfuscatedPAN>4444********1111</obfuscatedPAN><bin>444433</bin></derived></cardDetails></paymentInstrument></token><exemptionResponse result="HONOURED" reason="ISSUER_HONOURED"><exemption type="LV" placement="AUTHORISATION"/></exemptionResponse></orderStatus></reply></paymentService>
+ [] []
+[2023-03-06T07:58:03.680630+00:00] WorldPay.INFO: Cookie Get: machine=0a844015;Secure;path=/ [] []
+[2023-03-06T07:58:05.027135+00:00] WorldPay.INFO: Outside skip same site block [] []
+[2023-03-06T07:58:05.470872+00:00] WorldPay.INFO: ######################################### [] []
+[2023-03-06T07:58:05.470998+00:00] WorldPay.INFO:  [] []
+[2023-03-06T07:58:05.471031+00:00] WorldPay.INFO: ######################################### [] []
+[2023-03-06T07:58:30.725716+00:00] WorldPay.INFO: ########## Submitting payment options request ########## [] []
+[2023-03-06T07:58:30.726301+00:00] WorldPay.INFO: Setting destination URL: https://secure-test.worldpay.com/jsp/merchant/xml/paymentService.jsp [] []
+[2023-03-06T07:58:30.726363+00:00] WorldPay.INFO: Initialising request [] []
+[2023-03-06T07:58:30.726516+00:00] WorldPay.INFO: Sending XML as: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paymentService PUBLIC "-//WorldPay/DTD WorldPay PaymentService v1//EN" "http://dtd.worldpay.com/paymentService_v1.dtd">
+<paymentService merchantCode="SAPIENTNITROECOMMERCEV1" version="1.4"><inquiry><paymentOptionsInquiry countryCode="US"/></inquiry></paymentService>
+ [] []
+[2023-03-06T07:58:31.034843+00:00] WorldPay.INFO: Request successfully sent [] []
+[2023-03-06T07:58:31.034935+00:00] WorldPay.INFO: HTTP/2 200 
+content-security-policy-report-only: default-src https: data: 'unsafe-eval' 'unsafe-inline'; object-src 'none'; report-uri https://secure.worldpay.com/public/CspReport
+content-length: 1090
+p3p: CP="NON"
+content-type: text/plain
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-cnection: close
+expires: Mon, 06 Mar 2023 07:58:31 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 06 Mar 2023 07:58:31 GMT
+set-cookie: machine=0a844015;Secure;path=/
+strict-transport-security: max-age=31536000 ; includeSubDomains
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paymentService PUBLIC "-//WorldPay//DTD WorldPay PaymentService v1//EN"
+                                "http://dtd.worldpay.com/paymentService_v1.dtd">
+<paymentService version="1.4" merchantCode="SAPIENTNITROECOMMERCEV1"><reply>
+<paymentOption>PAYPAL-EXPRESS</paymentOption>
+<paymentOption>DINERS-SSL</paymentOption>
+<paymentOption>ECMC-SSL</paymentOption>
+<paymentOption>DINERS-SSL</paymentOption>
+<paymentOption>VISA-SSL</paymentOption>
+<paymentOption>AMEX-SSL</paymentOption>
+<paymentOption>DISCOVER-SSL</paymentOption>
+<paymentOption>VISA-SET</paymentOption>
+<paymentOption>MAESTRO-SSL</paymentOption>
+<paymentOption>JCB-SSL</paymentOption>
+<paymentOption>IKEA-SSL</paymentOption>
+<paymentOption>AIRPLUS-SSL</paymentOption>
+<paymentOption>ALIPAY-SSL</paymentOption>
+<paymentOption>ALIPAYMOBILE-SSL</paymentOption>
+<paymentOption>CHINAUNIONPAY-SSL</paymentOption>
+<paymentOption>ENVOY_TRANSFER_USD-BANK</paymentOption>
+<paymentOption>ACH_DIRECT_DEBIT-SSL</paymentOption>
+<paymentOption>UATP-SSL</paymentOption>
+</reply></paymentService>
+ [] []
+[2023-03-06T07:58:31.034985+00:00] WorldPay.INFO: Cookie Get: machine=0a844015;Secure;path=/ [] []
+[2023-03-06T07:58:31.130210+00:00] WorldPay.INFO: ########## Submitting payment options request ########## [] []
+[2023-03-06T07:58:31.130607+00:00] WorldPay.INFO: Setting destination URL: https://secure-test.worldpay.com/jsp/merchant/xml/paymentService.jsp [] []
+[2023-03-06T07:58:31.130648+00:00] WorldPay.INFO: Initialising request [] []
+[2023-03-06T07:58:31.130784+00:00] WorldPay.INFO: Sending XML as: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paymentService PUBLIC "-//WorldPay/DTD WorldPay PaymentService v1//EN" "http://dtd.worldpay.com/paymentService_v1.dtd">
+<paymentService merchantCode="SAPIENTNITROECOMMERCEV1" version="1.4"><inquiry><paymentOptionsInquiry countryCode="US"/></inquiry></paymentService>
+ [] []
+[2023-03-06T07:58:31.425145+00:00] WorldPay.INFO: Request successfully sent [] []
+[2023-03-06T07:58:31.425216+00:00] WorldPay.INFO: HTTP/2 200 
+content-security-policy-report-only: default-src https: data: 'unsafe-eval' 'unsafe-inline'; object-src 'none'; report-uri https://secure.worldpay.com/public/CspReport
+content-length: 1090
+p3p: CP="NON"
+content-type: text/plain
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-cnection: close
+expires: Mon, 06 Mar 2023 07:58:31 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 06 Mar 2023 07:58:31 GMT
+set-cookie: machine=0a844015;Secure;path=/
+strict-transport-security: max-age=31536000 ; includeSubDomains
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paymentService PUBLIC "-//WorldPay//DTD WorldPay PaymentService v1//EN"
+                                "http://dtd.worldpay.com/paymentService_v1.dtd">
+<paymentService version="1.4" merchantCode="SAPIENTNITROECOMMERCEV1"><reply>
+<paymentOption>PAYPAL-EXPRESS</paymentOption>
+<paymentOption>DINERS-SSL</paymentOption>
+<paymentOption>ECMC-SSL</paymentOption>
+<paymentOption>DINERS-SSL</paymentOption>
+<paymentOption>VISA-SSL</paymentOption>
+<paymentOption>AMEX-SSL</paymentOption>
+<paymentOption>DISCOVER-SSL</paymentOption>
+<paymentOption>VISA-SET</paymentOption>
+<paymentOption>MAESTRO-SSL</paymentOption>
+<paymentOption>JCB-SSL</paymentOption>
+<paymentOption>IKEA-SSL</paymentOption>
+<paymentOption>AIRPLUS-SSL</paymentOption>
+<paymentOption>ALIPAY-SSL</paymentOption>
+<paymentOption>ALIPAYMOBILE-SSL</paymentOption>
+<paymentOption>CHINAUNIONPAY-SSL</paymentOption>
+<paymentOption>ENVOY_TRANSFER_USD-BANK</paymentOption>
+<paymentOption>ACH_DIRECT_DEBIT-SSL</paymentOption>
+<paymentOption>UATP-SSL</paymentOption>
+</reply></paymentService>
+ [] []
+[2023-03-06T07:58:31.425264+00:00] WorldPay.INFO: Cookie Get: machine=0a844015;Secure;path=/ [] []
+[2023-03-06T07:58:52.682035+00:00] WorldPay.INFO: WorldPay Payment CreditCards Authorise Method Executed: [] []
+[2023-03-06T07:58:52.683783+00:00] WorldPay.INFO: ########## Submitting payment options request ########## [] []
+[2023-03-06T07:58:52.684165+00:00] WorldPay.INFO: Setting destination URL: https://secure-test.worldpay.com/jsp/merchant/xml/paymentService.jsp [] []
+[2023-03-06T07:58:52.684206+00:00] WorldPay.INFO: Initialising request [] []
+[2023-03-06T07:58:52.684302+00:00] WorldPay.INFO: Sending XML as: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paymentService PUBLIC "-//WorldPay/DTD WorldPay PaymentService v1//EN" "http://dtd.worldpay.com/paymentService_v1.dtd">
+<paymentService merchantCode="SAPIENTNITROECOMMERCEV1" version="1.4"><inquiry><paymentOptionsInquiry countryCode="US"/></inquiry></paymentService>
+ [] []
+[2023-03-06T07:58:53.271817+00:00] WorldPay.INFO: Request successfully sent [] []
+[2023-03-06T07:58:53.271910+00:00] WorldPay.INFO: HTTP/2 200 
+content-security-policy-report-only: default-src https: data: 'unsafe-eval' 'unsafe-inline'; object-src 'none'; report-uri https://secure.worldpay.com/public/CspReport
+content-length: 1090
+p3p: CP="NON"
+content-type: text/plain
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-cnection: close
+expires: Mon, 06 Mar 2023 07:58:53 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 06 Mar 2023 07:58:53 GMT
+set-cookie: machine=0a844015;Secure;path=/
+strict-transport-security: max-age=31536000 ; includeSubDomains
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paymentService PUBLIC "-//WorldPay//DTD WorldPay PaymentService v1//EN"
+                                "http://dtd.worldpay.com/paymentService_v1.dtd">
+<paymentService version="1.4" merchantCode="SAPIENTNITROECOMMERCEV1"><reply>
+<paymentOption>PAYPAL-EXPRESS</paymentOption>
+<paymentOption>DINERS-SSL</paymentOption>
+<paymentOption>ECMC-SSL</paymentOption>
+<paymentOption>DINERS-SSL</paymentOption>
+<paymentOption>VISA-SSL</paymentOption>
+<paymentOption>AMEX-SSL</paymentOption>
+<paymentOption>DISCOVER-SSL</paymentOption>
+<paymentOption>VISA-SET</paymentOption>
+<paymentOption>MAESTRO-SSL</paymentOption>
+<paymentOption>JCB-SSL</paymentOption>
+<paymentOption>IKEA-SSL</paymentOption>
+<paymentOption>AIRPLUS-SSL</paymentOption>
+<paymentOption>ALIPAY-SSL</paymentOption>
+<paymentOption>ALIPAYMOBILE-SSL</paymentOption>
+<paymentOption>CHINAUNIONPAY-SSL</paymentOption>
+<paymentOption>ENVOY_TRANSFER_USD-BANK</paymentOption>
+<paymentOption>ACH_DIRECT_DEBIT-SSL</paymentOption>
+<paymentOption>UATP-SSL</paymentOption>
+</reply></paymentService>
+ [] []
+[2023-03-06T07:58:53.271978+00:00] WorldPay.INFO: Cookie Get: machine=0a844015;Secure;path=/ [] []
+[2023-03-06T07:58:53.360552+00:00] WorldPay.INFO: ########## Submitting direct token order request. OrderCode: 000002596-1678089532 ########## [] []
+[2023-03-06T07:58:53.362343+00:00] WorldPay.INFO: Setting destination URL: https://secure-test.worldpay.com/jsp/merchant/xml/paymentService.jsp [] []
+[2023-03-06T07:58:53.362389+00:00] WorldPay.INFO: Initialising request [] []
+[2023-03-06T07:58:53.362616+00:00] WorldPay.INFO: Sending XML as: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paymentService PUBLIC "-//WorldPay/DTD WorldPay PaymentService v1//EN" "http://dtd.worldpay.com/paymentService_v1.dtd">
+<paymentService merchantCode="SAPIENTNITROECOMMERCEV1" version="1.4"><submit><order orderCode="000002596-1678089532" captureDelay="default"><description><![CDATA[WorldPay Order]]></description><amount currencyCode="USD" exponent="2" value="5500"/><paymentDetails><TOKEN-SSL tokenScope="shopper"><paymentTokenID>9932008911229181938</paymentTokenID><paymentInstrument><cardDetails><cvc>XXX</cvc></cardDetails></paymentInstrument></TOKEN-SSL><storedCredentials usage="USED"><schemeTransactionIdentifier>000000000000020005060720116005061</schemeTransactionIdentifier></storedCredentials><session id="gqr7le9q74190bu671b6o079oh" shopperIPAddress="103.185.243.166"/></paymentDetails><shopper><shopperEmailAddress>roni_cost@example.com</shopperEmailAddress><authenticatedShopperID>1</authenticatedShopperID><browser><acceptHeader><![CDATA[*/*]]></acceptHeader><userAgentHeader><![CDATA[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36]]></userAgentHeader></browser></shopper><shippingAddress><address><firstName><![CDATA[Veronica]]></firstName><lastName><![CDATA[Costello]]></lastName><street><![CDATA[6146 Honey Bluff Parkway]]></street><postalCode><![CDATA[49628-7978]]></postalCode><city><![CDATA[Calder]]></city><countryCode><![CDATA[US]]></countryCode></address></shippingAddress><billingAddress><address><firstName><![CDATA[Veronica]]></firstName><lastName><![CDATA[Costello]]></lastName><street><![CDATA[6146 Honey Bluff Parkway]]></street><postalCode><![CDATA[49628-7978]]></postalCode><city><![CDATA[Calder]]></city><countryCode><![CDATA[US]]></countryCode></address></billingAddress><dynamic3DS overrideAdvice="do3DS"/><riskData><authenticationRiskData authenticationMethod="localAccount"><authenticationTimestamp><date second="53" minute="58" hour="07" dayOfMonth="06" month="03" year="2023"/></authenticationTimestamp></authenticationRiskData><shopperAccountRiskData transactionsAttemptedLastDay="1" transactionsAttemptedLastYear="331" purchasesCompletedLastSixMonths="101" addCardAttemptsLastDay="5" previousSuspiciousActivity="false" shippingNameMatchesAccountName="true" shopperAccountAgeIndicator="moreThanSixtyDays" shopperAccountChangeIndicator="moreThanSixtyDays" shopperAccountPasswordChangeIndicator="moreThanSixtyDays" shopperAccountShippingAddressUsageIndicator="moreThanSixtyDays" shopperAccountPaymentAccountIndicator="moreThanSixtyDays"><shopperAccountCreationDate><date dayOfMonth="09" month="05" year="2022"/></shopperAccountCreationDate><shopperAccountModificationDate><date dayOfMonth="09" month="05" year="2022"/></shopperAccountModificationDate><shopperAccountPasswordChangeDate><date dayOfMonth="09" month="05" year="2022"/></shopperAccountPasswordChangeDate><shopperAccountShippingAddressFirstUseDate><date dayOfMonth="09" month="05" year="2022"/></shopperAccountShippingAddressFirstUseDate><shopperAccountPaymentAccountFirstUseDate><date dayOfMonth="09" month="05" year="2022"/></shopperAccountPaymentAccountFirstUseDate></shopperAccountRiskData><transactionRiskData shippingMethod="other" deliveryEmailAddress="roni_cost@example.com" reorderingPreviousPurchases="true" preOrderPurchase="false" giftCardCount="0"/></riskData><additional3DSData dfReferenceId="6d6d5410-953a-4f83-ae41-89c94b68e8dc" challengeWindowSize="600x400" challengePreference="challengeMandated"/><exemption placement="AUTHORISATION" type="OP"/><FraudSightData><shopperFields><shopperName>Veronica</shopperName><shopperId>1</shopperId><birthDate><date dayOfMonth="15" month="12" year="1973"/></birthDate><shopperAddress><address><firstName><![CDATA[Veronica]]></firstName><lastName><![CDATA[Costello]]></lastName><street><![CDATA[6146 Honey Bluff Parkway]]></street><postalCode><![CDATA[49628-7978]]></postalCode><city><![CDATA[Calder]]></city><countryCode><![CDATA[US]]></countryCode></address></shopperAddress></shopperFields></FraudSightData></order></submit></paymentService>
+ [] []
+[2023-03-06T07:58:53.944555+00:00] WorldPay.INFO: Request successfully sent [] []
+[2023-03-06T07:58:53.944647+00:00] WorldPay.INFO: HTTP/2 200 
+content-security-policy-report-only: default-src https: data: 'unsafe-eval' 'unsafe-inline'; object-src 'none'; report-uri https://secure.worldpay.com/public/CspReport
+content-length: 1854
+p3p: CP="NON"
+content-type: text/plain
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-cnection: close
+expires: Mon, 06 Mar 2023 07:58:53 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 06 Mar 2023 07:58:53 GMT
+set-cookie: machine=0a844015;Secure;path=/
+strict-transport-security: max-age=31536000 ; includeSubDomains
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paymentService PUBLIC "-//WorldPay//DTD WorldPay PaymentService v1//EN"
+                                "http://dtd.worldpay.com/paymentService_v1.dtd">
+<paymentService version="1.4" merchantCode="SAPIENTNITROECOMMERCEV1"><reply><orderStatus orderCode="000002596-1678089532"><payment><paymentMethod>VISA_CREDIT-SSL</paymentMethod><paymentMethodDetail><card number="4444********1111" type="creditcard"><expiryDate><date month="12" year="2023"/></expiryDate></card></paymentMethodDetail><amount value="5500" currencyCode="USD" exponent="2" debitCreditIndicator="credit"/><lastEvent>AUTHORISED</lastEvent><AuthorisationId id="898680"/><CVCResultCode description="NOT CHECKED BY ACQUIRER"/><AVSResultCode description="NOT CHECKED BY ACQUIRER"/><AAVAddressResultCode description="UNKNOWN"/><AAVPostcodeResultCode description="UNKNOWN"/><AAVCardholderNameResultCode description="UNKNOWN"/><AAVTelephoneResultCode description="UNKNOWN"/><AAVEmailResultCode description="UNKNOWN"/><cardHolderName><![CDATA[saurabh sahu]]></cardHolderName><issuerCountryCode>N/A</issuerCountryCode><balance accountType="IN_PROCESS_AUTHORISED"><amount value="5500" currencyCode="USD" exponent="2" debitCreditIndicator="credit"/></balance><riskScore Provider="FraudSight" finalScore="0" id="becd57da-14fd-4d18-9fc5-2e0367934118" message="low-risk"/><FraudSight score="0" id="becd57da-14fd-4d18-9fc5-2e0367934118" message="low-risk"><reasonCodes><reasonCode>Suspected Fraud</reasonCode></reasonCodes></FraudSight><instalments>1</instalments><schemeResponse><transactionIdentifier>000000000000020005060720116005061</transactionIdentifier></schemeResponse></payment><exemptionResponse result="HONOURED" reason="ISSUER_HONOURED"><exemption type="LR" placement="AUTHORISATION"/></exemptionResponse></orderStatus></reply></paymentService>
+ [] []
+[2023-03-06T07:58:53.944716+00:00] WorldPay.INFO: Cookie Get: machine=0a844015;Secure;path=/ [] []
+[2023-03-06T07:58:55.560959+00:00] WorldPay.INFO: ######################################### [] []
+[2023-03-06T07:58:55.561081+00:00] WorldPay.INFO:  [] []
+[2023-03-06T07:58:55.561113+00:00] WorldPay.INFO: ######################################### [] []
+[2023-03-06T08:02:02.241478+00:00] WorldPay.INFO: ########## Submitting capture request. Order: 000002596-1678089532 Amount:55.0000 ########## [] []
+[2023-03-06T08:02:02.246071+00:00] WorldPay.INFO: Setting destination URL: https://secure-test.worldpay.com/jsp/merchant/xml/paymentService.jsp [] []
+[2023-03-06T08:02:02.246117+00:00] WorldPay.INFO: Initialising request [] []
+[2023-03-06T08:02:02.246228+00:00] WorldPay.INFO: Sending XML as: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paymentService PUBLIC "-//WorldPay/DTD WorldPay PaymentService v1//EN" "http://dtd.worldpay.com/paymentService_v1.dtd">
+<paymentService merchantCode="SAPIENTNITROECOMMERCEV1" version="1.4"><modify><orderModification orderCode="000002596-1678089532"><capture><date dayOfMonth="06" month="03" year="2023"/><amount currencyCode="USD" exponent="2" value="5500"/></capture></orderModification></modify></paymentService>
+ [] []
+[2023-03-06T08:02:02.246267+00:00] WorldPay.INFO: Sending additional headers as: {"MERCHANT_ID":"SAPIENTNITROECOMMERCEV1","API_USERNAME":"MHAF6P5ABWKKIMAKLYXM","MAGENTO_EDITION":"Enterprise","MAGENTO_VERSION":"2.4.5-p1","PHP_VERSION":"8.1.5","CURRENT_WORLDPAY_PLUGIN_VERSION":"2.4.3-p20622","WORLDPAY_PLUGIN_VERSION_USED_TILL_DATE":"2.4.3-p20622","UPGRADE_DATES":"27-09-2022"} [] []
+[2023-03-06T08:02:02.554518+00:00] WorldPay.INFO: Request successfully sent [] []
+[2023-03-06T08:02:02.554613+00:00] WorldPay.INFO: HTTP/2 200 
+content-security-policy-report-only: default-src https: data: 'unsafe-eval' 'unsafe-inline'; object-src 'none'; report-uri https://secure.worldpay.com/public/CspReport
+content-length: 465
+p3p: CP="NON"
+content-type: text/plain
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-cnection: close
+expires: Mon, 06 Mar 2023 08:02:02 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 06 Mar 2023 08:02:02 GMT
+set-cookie: machine=0a844015;Secure;path=/
+strict-transport-security: max-age=31536000 ; includeSubDomains
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paymentService PUBLIC "-//WorldPay//DTD WorldPay PaymentService v1//EN"
+                                "http://dtd.worldpay.com/paymentService_v1.dtd">
+<paymentService version="1.4" merchantCode="SAPIENTNITROECOMMERCEV1"><reply><ok><captureReceived orderCode="000002596-1678089532"><amount value="5500" currencyCode="USD" exponent="2" debitCreditIndicator="credit"/></captureReceived></ok></reply></paymentService>
+ [] []
+[2023-03-06T08:02:02.554661+00:00] WorldPay.INFO: Cookie Get: machine=0a844015;Secure;path=/ [] []
+[2023-03-06T08:02:06.369434+00:00] WorldPay.INFO: ########## Submitting order inquiry. OrderCode: (000002596-1678089532) ##########ECOM [] []
+[2023-03-06T08:02:06.369846+00:00] WorldPay.INFO: Setting destination URL: https://secure-test.worldpay.com/jsp/merchant/xml/paymentService.jsp [] []
+[2023-03-06T08:02:06.369887+00:00] WorldPay.INFO: Initialising request [] []
+[2023-03-06T08:02:06.369990+00:00] WorldPay.INFO: Sending XML as: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paymentService PUBLIC "-//WorldPay/DTD WorldPay PaymentService v1//EN" "http://dtd.worldpay.com/paymentService_v1.dtd">
+<paymentService merchantCode="SAPIENTNITROECOMMERCEV1" version="1.4"><inquiry><orderInquiry orderCode="000002596-1678089532"/></inquiry></paymentService>
+ [] []
+[2023-03-06T08:02:06.849824+00:00] WorldPay.INFO: Request successfully sent [] []
+[2023-03-06T08:02:06.849916+00:00] WorldPay.INFO: HTTP/2 200 
+content-security-policy-report-only: default-src https: data: 'unsafe-eval' 'unsafe-inline'; object-src 'none'; report-uri https://secure.worldpay.com/public/CspReport
+content-length: 2667
+p3p: CP="NON"
+content-type: text/plain
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-cnection: close
+expires: Mon, 06 Mar 2023 08:02:06 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 06 Mar 2023 08:02:06 GMT
+set-cookie: machine=0a844015;Secure;path=/
+strict-transport-security: max-age=31536000 ; includeSubDomains
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paymentService PUBLIC "-//WorldPay//DTD WorldPay PaymentService v1//EN"
+                                "http://dtd.worldpay.com/paymentService_v1.dtd">
+<paymentService version="1.4" merchantCode="SAPIENTNITROECOMMERCEV1"><reply><orderStatus orderCode="000002596-1678089532"><payment><paymentMethod>VISA_CREDIT-SSL</paymentMethod><paymentMethodDetail><card number="4444********1111" type="creditcard"><expiryDate><date month="12" year="2023"/></expiryDate></card></paymentMethodDetail><amount value="5500" currencyCode="USD" exponent="2" debitCreditIndicator="credit"/><lastEvent>AUTHORISED</lastEvent><AuthorisationId id="898680"/><CVCResultCode description="NOT CHECKED BY ACQUIRER"/><AVSResultCode description="NOT CHECKED BY ACQUIRER"/><AAVAddressResultCode description="UNKNOWN"/><AAVPostcodeResultCode description="UNKNOWN"/><AAVCardholderNameResultCode description="UNKNOWN"/><AAVTelephoneResultCode description="UNKNOWN"/><AAVEmailResultCode description="UNKNOWN"/><cardHolderName><![CDATA[saurabh sahu]]></cardHolderName><issuerCountryCode>N/A</issuerCountryCode><balance accountType="IN_PROCESS_AUTHORISED"><amount value="5500" currencyCode="USD" exponent="2" debitCreditIndicator="credit"/></balance><riskScore Provider="FraudSight" finalScore="0" id="becd57da-14fd-4d18-9fc5-2e0367934118" message="low-risk"/><FraudSight score="0" id="becd57da-14fd-4d18-9fc5-2e0367934118" message="low-risk"><reasonCodes><reasonCode>Suspected Fraud</reasonCode></reasonCodes></FraudSight><instalments>1</instalments><schemeResponse><transactionIdentifier>000000000000020005060720116005061</transactionIdentifier></schemeResponse></payment><token><authenticatedShopperID>1</authenticatedShopperID><tokenDetails tokenEvent="USE"><paymentTokenID>9932008911229181938</paymentTokenID><paymentTokenExpiry><date dayOfMonth="10" month="03" year="2023" hour="12" minute="46" second="17"/></paymentTokenExpiry><tokenReason>To Save Card 000000140-1677492193</tokenReason></tokenDetails><paymentInstrument><cardDetails><expiryDate><date month="12" year="2023"/></expiryDate><cardHolderName><![CDATA[saurabh sahu]]></cardHolderName><cardAddress><address><address1>indore</address1><postalCode>787878</postalCode><city>indore</city><countryCode>US</countryCode></address></cardAddress><derived><cardBrand>VISA</cardBrand><cardSubBrand>VISA_CREDIT</cardSubBrand><issuerCountryCode>N/A</issuerCountryCode><obfuscatedPAN>4444********1111</obfuscatedPAN><bin>444433</bin></derived></cardDetails></paymentInstrument></token><date dayOfMonth="06" month="03" year="2023" hour="8" minute="1" second="0"/></orderStatus></reply></paymentService>
+ [] []
+[2023-03-06T08:02:06.850006+00:00] WorldPay.INFO: Cookie Get: machine=0a844015;Secure;path=/ [] []
+[2023-03-06T08:02:06.863315+00:00] WorldPay.INFO: ########## Received notification customerId ########## [] []
+[2023-03-06T08:02:06.863368+00:00] WorldPay.INFO: 1 [] []
+[2023-03-06T08:02:11.236887+00:00] WorldPay.INFO: ########## Submitting cancel order request. Order: 000002596-1678089532 Amount:55.0000 ########## [] []
+[2023-03-06T08:02:11.237430+00:00] WorldPay.INFO: Setting destination URL: https://secure-test.worldpay.com/jsp/merchant/xml/paymentService.jsp [] []
+[2023-03-06T08:02:11.237472+00:00] WorldPay.INFO: Initialising request [] []
+[2023-03-06T08:02:11.237580+00:00] WorldPay.INFO: Sending XML as: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paymentService PUBLIC "-//WorldPay/DTD WorldPay PaymentService v1//EN" "http://dtd.worldpay.com/paymentService_v1.dtd">
+<paymentService merchantCode="SAPIENTNITROECOMMERCEV1" version="1.4"><modify><orderModification orderCode="000002596-1678089532"><cancel/></orderModification></modify></paymentService>
+ [] []
+[2023-03-06T08:02:11.237631+00:00] WorldPay.INFO: Sending additional headers as: {"MERCHANT_ID":"SAPIENTNITROECOMMERCEV1","API_USERNAME":"MHAF6P5ABWKKIMAKLYXM","MAGENTO_EDITION":"Enterprise","MAGENTO_VERSION":"2.4.5-p1","PHP_VERSION":"8.1.5","CURRENT_WORLDPAY_PLUGIN_VERSION":"2.4.3-p20622","WORLDPAY_PLUGIN_VERSION_USED_TILL_DATE":"2.4.3-p20622","UPGRADE_DATES":"27-09-2022"} [] []
+[2023-03-06T08:02:11.497342+00:00] WorldPay.INFO: Request successfully sent [] []
+[2023-03-06T08:02:11.497431+00:00] WorldPay.INFO: HTTP/2 200 
+content-security-policy-report-only: default-src https: data: 'unsafe-eval' 'unsafe-inline'; object-src 'none'; report-uri https://secure.worldpay.com/public/CspReport
+content-length: 363
+p3p: CP="NON"
+content-type: text/plain
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-cnection: close
+expires: Mon, 06 Mar 2023 08:02:11 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 06 Mar 2023 08:02:11 GMT
+set-cookie: machine=0a844015;Secure;path=/
+strict-transport-security: max-age=31536000 ; includeSubDomains
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paymentService PUBLIC "-//WorldPay//DTD WorldPay PaymentService v1//EN"
+                                "http://dtd.worldpay.com/paymentService_v1.dtd">
+<paymentService version="1.4" merchantCode="SAPIENTNITROECOMMERCEV1"><reply><ok><cancelReceived orderCode="000002596-1678089532"/></ok></reply></paymentService>
+ [] []
+[2023-03-06T08:02:11.497471+00:00] WorldPay.INFO: Cookie Get: machine=0a844015;Secure;path=/ [] []
+[2023-03-06T08:02:11.498731+00:00] WorldPay.INFO: ########## Submitting order inquiry. OrderCode: (000002596-1678089532) ##########ECOM [] []
+[2023-03-06T08:02:11.499096+00:00] WorldPay.INFO: Setting destination URL: https://secure-test.worldpay.com/jsp/merchant/xml/paymentService.jsp [] []
+[2023-03-06T08:02:11.499139+00:00] WorldPay.INFO: Initialising request [] []
+[2023-03-06T08:02:11.499225+00:00] WorldPay.INFO: Sending XML as: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paymentService PUBLIC "-//WorldPay/DTD WorldPay PaymentService v1//EN" "http://dtd.worldpay.com/paymentService_v1.dtd">
+<paymentService merchantCode="SAPIENTNITROECOMMERCEV1" version="1.4"><inquiry><orderInquiry orderCode="000002596-1678089532"/></inquiry></paymentService>
+ [] []
+[2023-03-06T08:02:11.897291+00:00] WorldPay.INFO: Request successfully sent [] []
+[2023-03-06T08:02:11.897384+00:00] WorldPay.INFO: HTTP/2 200 
+content-security-policy-report-only: default-src https: data: 'unsafe-eval' 'unsafe-inline'; object-src 'none'; report-uri https://secure.worldpay.com/public/CspReport
+content-length: 2667
+p3p: CP="NON"
+content-type: text/plain
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-cnection: close
+expires: Mon, 06 Mar 2023 08:02:11 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 06 Mar 2023 08:02:11 GMT
+set-cookie: machine=0a844015;Secure;path=/
+strict-transport-security: max-age=31536000 ; includeSubDomains
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paymentService PUBLIC "-//WorldPay//DTD WorldPay PaymentService v1//EN"
+                                "http://dtd.worldpay.com/paymentService_v1.dtd">
+<paymentService version="1.4" merchantCode="SAPIENTNITROECOMMERCEV1"><reply><orderStatus orderCode="000002596-1678089532"><payment><paymentMethod>VISA_CREDIT-SSL</paymentMethod><paymentMethodDetail><card number="4444********1111" type="creditcard"><expiryDate><date month="12" year="2023"/></expiryDate></card></paymentMethodDetail><amount value="5500" currencyCode="USD" exponent="2" debitCreditIndicator="credit"/><lastEvent>AUTHORISED</lastEvent><AuthorisationId id="898680"/><CVCResultCode description="NOT CHECKED BY ACQUIRER"/><AVSResultCode description="NOT CHECKED BY ACQUIRER"/><AAVAddressResultCode description="UNKNOWN"/><AAVPostcodeResultCode description="UNKNOWN"/><AAVCardholderNameResultCode description="UNKNOWN"/><AAVTelephoneResultCode description="UNKNOWN"/><AAVEmailResultCode description="UNKNOWN"/><cardHolderName><![CDATA[saurabh sahu]]></cardHolderName><issuerCountryCode>N/A</issuerCountryCode><balance accountType="IN_PROCESS_AUTHORISED"><amount value="5500" currencyCode="USD" exponent="2" debitCreditIndicator="credit"/></balance><riskScore Provider="FraudSight" finalScore="0" id="becd57da-14fd-4d18-9fc5-2e0367934118" message="low-risk"/><FraudSight score="0" id="becd57da-14fd-4d18-9fc5-2e0367934118" message="low-risk"><reasonCodes><reasonCode>Suspected Fraud</reasonCode></reasonCodes></FraudSight><instalments>1</instalments><schemeResponse><transactionIdentifier>000000000000020005060720116005061</transactionIdentifier></schemeResponse></payment><token><authenticatedShopperID>1</authenticatedShopperID><tokenDetails tokenEvent="USE"><paymentTokenID>9932008911229181938</paymentTokenID><paymentTokenExpiry><date dayOfMonth="10" month="03" year="2023" hour="12" minute="46" second="17"/></paymentTokenExpiry><tokenReason>To Save Card 000000140-1677492193</tokenReason></tokenDetails><paymentInstrument><cardDetails><expiryDate><date month="12" year="2023"/></expiryDate><cardHolderName><![CDATA[saurabh sahu]]></cardHolderName><cardAddress><address><address1>indore</address1><postalCode>787878</postalCode><city>indore</city><countryCode>US</countryCode></address></cardAddress><derived><cardBrand>VISA</cardBrand><cardSubBrand>VISA_CREDIT</cardSubBrand><issuerCountryCode>N/A</issuerCountryCode><obfuscatedPAN>4444********1111</obfuscatedPAN><bin>444433</bin></derived></cardDetails></paymentInstrument></token><date dayOfMonth="06" month="03" year="2023" hour="8" minute="1" second="0"/></orderStatus></reply></paymentService>
+ [] []
+[2023-03-06T08:02:11.897461+00:00] WorldPay.INFO: Cookie Get: machine=0a844015;Secure;path=/ [] []
+[2023-03-06T08:02:17.288521+00:00] WorldPay.INFO: ########## Submitting order inquiry. OrderCode: (000002596-1678089532) ##########ECOM [] []
+[2023-03-06T08:02:17.289051+00:00] WorldPay.INFO: Setting destination URL: https://secure-test.worldpay.com/jsp/merchant/xml/paymentService.jsp [] []
+[2023-03-06T08:02:17.289109+00:00] WorldPay.INFO: Initialising request [] []
+[2023-03-06T08:02:17.289248+00:00] WorldPay.INFO: Sending XML as: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paymentService PUBLIC "-//WorldPay/DTD WorldPay PaymentService v1//EN" "http://dtd.worldpay.com/paymentService_v1.dtd">
+<paymentService merchantCode="SAPIENTNITROECOMMERCEV1" version="1.4"><inquiry><orderInquiry orderCode="000002596-1678089532"/></inquiry></paymentService>
+ [] []
+[2023-03-06T08:02:17.666199+00:00] WorldPay.INFO: Request successfully sent [] []
+[2023-03-06T08:02:17.666294+00:00] WorldPay.INFO: HTTP/2 200 
+content-security-policy-report-only: default-src https: data: 'unsafe-eval' 'unsafe-inline'; object-src 'none'; report-uri https://secure.worldpay.com/public/CspReport
+content-length: 2667
+p3p: CP="NON"
+content-type: text/plain
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-cnection: close
+expires: Mon, 06 Mar 2023 08:02:17 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 06 Mar 2023 08:02:17 GMT
+set-cookie: machine=0a844015;Secure;path=/
+strict-transport-security: max-age=31536000 ; includeSubDomains
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paymentService PUBLIC "-//WorldPay//DTD WorldPay PaymentService v1//EN"
+                                "http://dtd.worldpay.com/paymentService_v1.dtd">
+<paymentService version="1.4" merchantCode="SAPIENTNITROECOMMERCEV1"><reply><orderStatus orderCode="000002596-1678089532"><payment><paymentMethod>VISA_CREDIT-SSL</paymentMethod><paymentMethodDetail><card number="4444********1111" type="creditcard"><expiryDate><date month="12" year="2023"/></expiryDate></card></paymentMethodDetail><amount value="5500" currencyCode="USD" exponent="2" debitCreditIndicator="credit"/><lastEvent>AUTHORISED</lastEvent><AuthorisationId id="898680"/><CVCResultCode description="NOT CHECKED BY ACQUIRER"/><AVSResultCode description="NOT CHECKED BY ACQUIRER"/><AAVAddressResultCode description="UNKNOWN"/><AAVPostcodeResultCode description="UNKNOWN"/><AAVCardholderNameResultCode description="UNKNOWN"/><AAVTelephoneResultCode description="UNKNOWN"/><AAVEmailResultCode description="UNKNOWN"/><cardHolderName><![CDATA[saurabh sahu]]></cardHolderName><issuerCountryCode>N/A</issuerCountryCode><balance accountType="IN_PROCESS_AUTHORISED"><amount value="5500" currencyCode="USD" exponent="2" debitCreditIndicator="credit"/></balance><riskScore Provider="FraudSight" finalScore="0" id="becd57da-14fd-4d18-9fc5-2e0367934118" message="low-risk"/><FraudSight score="0" id="becd57da-14fd-4d18-9fc5-2e0367934118" message="low-risk"><reasonCodes><reasonCode>Suspected Fraud</reasonCode></reasonCodes></FraudSight><instalments>1</instalments><schemeResponse><transactionIdentifier>000000000000020005060720116005061</transactionIdentifier></schemeResponse></payment><token><authenticatedShopperID>1</authenticatedShopperID><tokenDetails tokenEvent="USE"><paymentTokenID>9932008911229181938</paymentTokenID><paymentTokenExpiry><date dayOfMonth="10" month="03" year="2023" hour="12" minute="46" second="17"/></paymentTokenExpiry><tokenReason>To Save Card 000000140-1677492193</tokenReason></tokenDetails><paymentInstrument><cardDetails><expiryDate><date month="12" year="2023"/></expiryDate><cardHolderName><![CDATA[saurabh sahu]]></cardHolderName><cardAddress><address><address1>indore</address1><postalCode>787878</postalCode><city>indore</city><countryCode>US</countryCode></address></cardAddress><derived><cardBrand>VISA</cardBrand><cardSubBrand>VISA_CREDIT</cardSubBrand><issuerCountryCode>N/A</issuerCountryCode><obfuscatedPAN>4444********1111</obfuscatedPAN><bin>444433</bin></derived></cardDetails></paymentInstrument></token><date dayOfMonth="06" month="03" year="2023" hour="8" minute="1" second="0"/></orderStatus></reply></paymentService>
+ [] []
+[2023-03-06T08:02:17.666443+00:00] WorldPay.INFO: Cookie Get: machine=0a844015;Secure;path=/ [] []
+[2023-03-06T08:02:17.678448+00:00] WorldPay.INFO: ########## Received notification customerId ########## [] []
+[2023-03-06T08:02:17.678498+00:00] WorldPay.INFO: 1 [] []
