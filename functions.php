@@ -104,3 +104,5 @@
 	$array = [22,33,4,55,6];
 	echo "<br>myArrayWithLoop Sum => " .myArrayWithLoop($array);
 ?>
+
+%, squre, swaping of 2 number, chk number is prime or not, 
