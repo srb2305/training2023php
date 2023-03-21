@@ -96,11 +96,13 @@
 		$qry = "delete from `users` where `id`=$id";
 		$delete = mysqli_query($con, $qry);
 		if($delete){
-			$msg =  "Deleted Successfully";
+			//$msg =  "Deleted Successfully";
+			echo "true";
 		}else{
 			$msg = "Something went wrong";
+			echo "false";
 		}
-		header('location:user_list.php?msg='.$msg);
+		// header('location:user_list.php?msg='.$msg);
 	}
 
 	if(isset($_POST['update_user'])){
@@ -140,6 +142,19 @@
 			$msg = "Something went wrong";
 		}
 		header('location:file_upload.php?msg='.$msg);
+	}
 
+	
+	if(isset($_GET['user_search'])){
+		$val = $_GET['user_search'];
+		
+		$qry = "select * from `users` where `name` LIKE '$val%'";
+		$result = mysqli_query($con, $qry);
+		$html = '<ul>';
+		foreach ($result as $key => $value) {
+			$html .= '<li>'.$value['name'].'</li>';
+		}
+		$html .= '</ul>';
+		echo $html;
 	}
 ?>
