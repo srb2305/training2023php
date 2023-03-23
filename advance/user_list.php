@@ -50,8 +50,9 @@ $totalCount = $result->num_rows;
 		    type: 'GET',  // http method
 		    //data:{user_delete_id:'4'}, 
 		    success: function (data) {
-		    	console.log(data);
-		    	if(data == "true"){
+		    	console.log(JSON.stringify(data));
+		    	console.log(data.status);
+		    	if(data){
 		        	//alert('Successfully deleted');
 		        	$('#rowid_'+id).remove();
 

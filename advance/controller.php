@@ -57,14 +57,16 @@
 		if(empty($name) || empty($email) || empty($contact) || empty($password) ){
 			$_SESSION['error_ary'] = $errorArry;
 			$msg = "Please fill required fields";
-			header('location:registration.php?error_msg='.$msg);
+			//header('location:registration.php?error_msg='.$msg);
+			echo $msg;
 			die();
 		}
 
 		$contactLeng = strlen($contact);
 		if( ($contactLeng < 10) ||  ($contactLeng > 15) ){
 			$msg = "Contact number should be between 10-15 digits";
-			header('location:registration.php?error_msg='.$msg);
+			//header('location:registration.php?error_msg='.$msg);
+			echo $msg;
 			die();
 		}
 
@@ -73,7 +75,8 @@
 		$count = $chkResult->num_rows;
 		if($count > 0){
 			$msg =  "Email already registerd, pls login or signin with diffrent mail";
-			header('location:registration.php?error_msg='.$msg);
+		//	header('location:registration.php?error_msg='.$msg);
+			echo $msg;
 			die();
 		}
 
@@ -87,7 +90,8 @@
 		}else{
 			$msg = "Something went wrong";
 		}
-		header('location:registration.php?msg='.$msg);
+		echo $msg;
+		//header('location:registration.php?msg='.$msg);
 	}
 
 
@@ -96,12 +100,17 @@
 		$qry = "delete from `users` where `id`=$id";
 		$delete = mysqli_query($con, $qry);
 		if($delete){
+			$result['status'] = true;
+			$result['message'] = "Deleted successfully";
 			//$msg =  "Deleted Successfully";
-			echo "true";
+			//echo "true";
 		}else{
-			$msg = "Something went wrong";
-			echo "false";
+			//$msg = "Something went wrong";
+			$result['status'] = false;
+			$result['message'] = "Not Deleted ";
+		//	echo "false";
 		}
+		echo json_encode($result);
 		// header('location:user_list.php?msg='.$msg);
 	}
 
