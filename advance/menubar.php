@@ -2,6 +2,7 @@
 <a href="contact.php">About Us</a>
 <a href="contact.php">Services</a>
 <a href="user_list.php">User List</a>
+<a href="file_upload.php">File Upload</a>
 
 <?php 
 	session_start();

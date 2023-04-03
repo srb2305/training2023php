@@ -57,14 +57,16 @@
 		if(empty($name) || empty($email) || empty($contact) || empty($password) ){
 			$_SESSION['error_ary'] = $errorArry;
 			$msg = "Please fill required fields";
-			header('location:registration.php?error_msg='.$msg);
+			//header('location:registration.php?error_msg='.$msg);
+			echo $msg;
 			die();
 		}
 
 		$contactLeng = strlen($contact);
 		if( ($contactLeng < 10) ||  ($contactLeng > 15) ){
 			$msg = "Contact number should be between 10-15 digits";
-			header('location:registration.php?error_msg='.$msg);
+			//header('location:registration.php?error_msg='.$msg);
+			echo $msg;
 			die();
 		}
 
@@ -73,7 +75,8 @@
 		$count = $chkResult->num_rows;
 		if($count > 0){
 			$msg =  "Email already registerd, pls login or signin with diffrent mail";
-			header('location:registration.php?error_msg='.$msg);
+		//	header('location:registration.php?error_msg='.$msg);
+			echo $msg;
 			die();
 		}
 
@@ -87,7 +90,8 @@
 		}else{
 			$msg = "Something went wrong";
 		}
-		header('location:registration.php?msg='.$msg);
+		echo $msg;
+		//header('location:registration.php?msg='.$msg);
 	}
 
 
@@ -96,11 +100,18 @@
 		$qry = "delete from `users` where `id`=$id";
 		$delete = mysqli_query($con, $qry);
 		if($delete){
-			$msg =  "Deleted Successfully";
+			$result['status'] = true;
+			$result['message'] = "Deleted successfully";
+			//$msg =  "Deleted Successfully";
+			//echo "true";
 		}else{
-			$msg = "Something went wrong";
+			//$msg = "Something went wrong";
+			$result['status'] = false;
+			$result['message'] = "Not Deleted ";
+		//	echo "false";
 		}
-		header('location:user_list.php?msg='.$msg);
+		echo json_encode($result);
+		// header('location:user_list.php?msg='.$msg);
 	}
 
 	if(isset($_POST['update_user'])){
@@ -120,4 +131,39 @@
 		header('location:user_list.php?msg='.$msg);
 	}
 
+
+	if(isset($_POST['file_upload'])){
+		$title =	$_POST['title'];
+		//$file =	$_FILES['file'];
+		$tmp_name =	$_FILES['file']['tmp_name'];
+		$name =	$_FILES['file']['name'];
+		$newName = time().$name;
+		$destination = '../images/'.$newName;
+		move_uploaded_file($tmp_name, $destination);
+
+		$qry = "insert into `file_upload` (`title`,`file_name`) values ('$title','$newName')";
+
+		$insert = mysqli_query($con, $qry);
+
+		if($insert){
+			$msg =  "Inserted Successfully";
+		}else{
+			$msg = "Something went wrong";
+		}
+		header('location:file_upload.php?msg='.$msg);
+	}
+
+	
+	if(isset($_GET['user_search'])){
+		$val = $_GET['user_search'];
+		
+		$qry = "select * from `users` where `name` LIKE '$val%'";
+		$result = mysqli_query($con, $qry);
+		$html = '<ul>';
+		foreach ($result as $key => $value) {
+			$html .= '<li>'.$value['name'].'</li>';
+		}
+		$html .= '</ul>';
+		echo $html;
+	}
 ?>
